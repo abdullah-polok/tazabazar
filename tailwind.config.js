@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./App.{js,jsx,ts,tsx}",
-    "./<custom directory>/**/*.{js,jsx,ts,tsx}",
+    "./navigation/**/*.{js,jsx,ts,tsx}",
+    "./Components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},

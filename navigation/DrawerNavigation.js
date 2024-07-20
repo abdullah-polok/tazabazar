@@ -3,7 +3,7 @@ import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { Ionicons } from "@expo/vector-icons";
 import BottomNavigation from "./BottomNavigation";
-import SettingsScreen from "./screens/SettingsScreen";
+import SettingsScreen from "./screens/MyOrderScreen";
 const Drawer = createDrawerNavigator();
 
 const DrawerNavigation = () => {
@@ -14,6 +14,7 @@ const DrawerNavigation = () => {
           backgroundColor: "#ffff",
           width: 250,
         },
+
         headerStyle: {
           backgroundColor: "#ffff",
         },
@@ -40,7 +41,7 @@ const DrawerNavigation = () => {
       <Drawer.Screen
         name="Settings"
         options={{
-          drawerLabel: "Home",
+          drawerLabel: "Settings",
           title: "Tazabazar",
           headerShadowVisible: false,
           drawerIcon: () => {

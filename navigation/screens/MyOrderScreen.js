@@ -1,17 +1,17 @@
 import { View, Text } from "react-native";
-import * as React from "react";
+import React from "react";
 
-const DetailsScreens = ({ navigation }) => {
+const MyOrderScreen = ({ navigation }) => {
   return (
     <View className="flex-1 items-center justify-center">
       <Text
         className="text-2xl font-bold"
         onPress={() => navigation.navigate("Home")}
       >
-        Details Screen
+        My Order Screen
       </Text>
     </View>
   );
 };
 
-export default DetailsScreens;
+export default MyOrderScreen;
